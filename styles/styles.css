@@ -1,6 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .extra_line__wrapper {
     background-color: rgb(31, 59, 123);
-    color: white;
-    text-align: center;
+    color: rgb(255, 255, 255);
     font-family: "Exo 2.0";
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.extra_info {
+    user-select: none;
+}
+
+.underline-none:hover {
+    text-decoration-line: none;
+}
+
+.main_logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo_with_icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    font-size: 20px;
+}
+
+.logo_with_icon:hover {
+    cursor: pointer;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-16 {
+    font-size: 16px;
 }
